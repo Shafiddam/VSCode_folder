@@ -1,0 +1,70 @@
+body {
+    background: #ddd;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin: 16px;
+    background: #fff;
+    font-size: 32px;
+}
+
+/* 
+  .html-color - задай фон через HTML-имя цвета;
+  .hex-color - задай фон через HEX-цвет (гугли color picker);
+  .rgb - через RGB;
+  .rgb - скопируй rgb, добавь букву a, добавь прозрачность 50%;
+  .hsl - через HSL;
+  .hsla - скопируй hsl, добавь букву a, добавь прозрачность 50%;
+  .image - задай фон картинкой, можешь взять вот эту; 
+*/
+
+
+.html-color {
+    background: red;
+    /*position: fixed; right: 16px; top: 12px;*/
+
+    /*position: static; right: 16px; top: 12px;*/
+    
+   /*position: absolute; left: 16px; top: 12px;*/
+    
+   /*position: absolute; right: 16px; top: 12px;*/
+        
+}
+
+.hex-color {
+    background-color: #dddaaa;
+}
+
+.rgb-color {
+    background: rgb(173, 123, 29);
+
+}
+
+
+.rgba-color {
+    background: rgba(000, 255, 255, 0.3);
+}
+
+.hsl-color {
+    background: hsl(155, 100%, 24%);
+}
+
+.hsla-color {
+    background: hsla(155, 100%, 24%, 0.13);
+}
+
+.image {
+    background: url('https://3.bp.blogspot.com/-_ksEGvwCCRg/Ui5EE_59HII/AAAAAAAAAqs/ZgySYBLf8H8/s1600/Torta+Chiffon.jpg');
+    background-size: cover;
+
+}
+
+

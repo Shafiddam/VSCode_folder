@@ -1,0 +1,15 @@
+
+
+
+
+.modal__close {
+    position: absolute;
+    right: 25px;
+    top: 20px;
+  }
+  
+  .modal__footer {
+    text-align: right;
+    box-sizing: border-box;
+    padding: 10px 200px;
+  }

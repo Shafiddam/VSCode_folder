@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новые типы полей</title>
+</head>
+
+<body>
+
+    <font face=sans-serif>
+        <h1> Новые типы полей: email, search, url...</h1>
+        <p>
+            С появлением стандарта HTML5 добавились и новые типы полей форм. В первую очередь они стали гораздо удобнее
+            для пользователей.
+
+            Ввод E-Mail, type="email". Текстовое поле, у которого на клавиатуре мобильных устройств появляется символ @.
+
+            Номер телефона, type="tel". На мобильных устройствах открывается клавиатура с числами.
+
+            Ввод ссылки, type="url".
+
+            Числовое поле, type="number". Помимо клавиатуры с цифрами появляется возможность переключать значения поля.
+            Атрибуты min и max определяют нижнее и верхнее возможное значение, step - шаг изменения, a value - начальное
+            значение.
+
+            Числовой ползунок, type="range". Появляются уже указанные атрибуты min, max, step и value.
+
+            Поиск, type="search". Google Chrome добавляет крестик для очистки введенной строки. На мобильных устройствах
+            появляется кнопка поиска.
+        </p>
+
+        <h2>Один из возможных вариантов формы</h2>
+        <form>
+            Ввод E-Mail :<br />
+            <input name="email" type="email" value=" "> <br /><br />
+            Номер телефона : <br />
+            <input name="tel" type="tel" value=""> <br /><br />
+            Ввод ссылки <br />
+            <input name="url" type="url" value=" "><br /><br />
+
+            Числовое поле (пример - температура кипения воды)<br />
+            <input name="number" type="number" min='0' max='100' step='10' value="100"><br /><br />
+
+            Числовой ползунок (пример - "громкость")<br />
+            <input name="range" type="range" min='0' max='1000' step='100' value="100"><br /><br />
+
+            Поиск <br />
+            <input name="search" type="search" value=" "><br /><br />
+
+
+        </form>
+
+    </font>
+</body>
+
+</html>

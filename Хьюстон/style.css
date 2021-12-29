@@ -1,0 +1,45 @@
+div {
+    width: 80%;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    /*font-size: 2vh;*/
+}
+
+h1, h2, h3, h4 {
+    font-family: sans-serif;
+    margin-top: 1.5em;
+    /*background: #fff url(../хьюстон.png) no-repeat center left;*/
+}
+
+h1 {
+    font-size: 32px;
+}
+
+table, th, td {
+    border: 1px solid;
+    width: 175%
+}
+
+table {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+figure {
+    float: right;
+    font-style: italic;
+    /*display: block;*/
+    text-align: center;
+}
+
+
+.clear {
+    clear: both;
+  }
+  
